@@ -5,8 +5,8 @@ How to run
 ---
 
 ```
-git clone ---link---
-cd ---folder----
+git clone https://github.com/gdelpuente/colyseus-state_handler
+cd colyseus-state_handler
 npm install
 npm run bundle-colyseus-client
 npm start
