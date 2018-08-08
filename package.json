@@ -1,0 +1,23 @@
+{
+  "name": "colyseus-test",
+  "version": "1.0.0",
+  "description": "Examples 02 of Colyseus Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "bundle-colyseus-client": "browserify ./node_modules/colyseus.js/lib/index.js -s Colyseus -o static/colyseus.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "colyseus": "^0.9.11",
+    "colyseus.js": "^0.9.6",
+    "express": "^4.14.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
